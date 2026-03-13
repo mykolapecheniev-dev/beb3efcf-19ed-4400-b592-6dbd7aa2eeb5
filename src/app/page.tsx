@@ -28,7 +28,7 @@ export default function LandingPage() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleCentered
-          brandName="Bee Life"
+          brandName="Bee Life with Us"
           navItems={[
             { name: "Home", id: "home" },
             { name: "About", id: "about" },
