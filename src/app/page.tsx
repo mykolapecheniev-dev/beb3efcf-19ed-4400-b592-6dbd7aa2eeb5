@@ -30,7 +30,7 @@ export default function LandingPage() {
         <NavbarStyleCentered
           brandName="Bee Life with Us"
           navItems={[
-            { name: "Home", id: "home" },
+            { name: "General", id: "home" },
             { name: "About", id: "about" },
             { name: "Arrangements", id: "arrangements" },
             { name: "Services", id: "services" },
