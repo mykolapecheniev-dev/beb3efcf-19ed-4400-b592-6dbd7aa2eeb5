@@ -92,7 +92,7 @@ export default function LandingPage() {
               title: "Fresh Quality",              description: "We work with the freshest blooms available, ensuring your flowers last longer and look their best.",              icon: Droplet
             }
           ]}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=b2oems&_wi=1"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=b2oems"
           imageAlt="Florist arranging flowers in our studio"
           mediaAnimation="blur-reveal"
           imagePosition="right"
@@ -121,15 +121,15 @@ export default function LandingPage() {
           gridVariant="three-columns-all-equal-width"
           animationType="blur-reveal"
           products={[
-            { id: "arrangement-1", name: "Rose Romance", price: "$65", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lqwitn&_wi=1", imageAlt: "Deluxe wedding bouquet with pink roses" },
-            { id: "arrangement-2", name: "Wildflower Dream", price: "$55", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11snm1&_wi=1", imageAlt: "Bohemian style mixed flower arrangement" },
-            { id: "arrangement-3", name: "Green Garden", price: "$50", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=32583w&_wi=1", imageAlt: "Living plant arrangement with greenery" }
+            { id: "arrangement-1", name: "Rose Romance", price: "$65", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lqwitn", imageAlt: "Deluxe wedding bouquet with pink roses" },
+            { id: "arrangement-2", name: "Wildflower Dream", price: "$55", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11snm1", imageAlt: "Bohemian style mixed flower arrangement" },
+            { id: "arrangement-3", name: "Green Garden", price: "$50", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=32583w", imageAlt: "Living plant arrangement with greenery" }
           ]}
           ariaLabel="Featured flower arrangements"
           className="w-full"
           containerClassName="flex flex-col gap-8"
-          titleClassName="text-3xl md:text-4xl font-light text-foreground"
-          descriptionClassName="text-base text-foreground opacity-80 mt-2"
+          textBoxTitleClassName="text-3xl md:text-4xl font-light text-foreground"
+          textBoxDescriptionClassName="text-base text-foreground opacity-80 mt-2"
           gridClassName="grid gap-6"
           cardClassName="rounded-lg overflow-hidden"
           imageClassName="w-full h-64 object-cover"
@@ -143,15 +143,15 @@ export default function LandingPage() {
           features={[
             {
               id: 1,
-              tag: "Custom Arrangements",              title: "Bespoke Designs",              subtitle: "Personalized for You",              description: "Work directly with our florists to create custom arrangements that perfectly match your vision and preferences.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lqwitn&_wi=2",              imageAlt: "Custom floral design process"
+              tag: "Custom Arrangements",              title: "Bespoke Designs",              subtitle: "Personalized for You",              description: "Work directly with our florists to create custom arrangements that perfectly match your vision and preferences.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=lqwitn",              imageAlt: "Custom floral design process"
             },
             {
               id: 2,
-              tag: "Event Florals",              title: "Celebrations",              subtitle: "Weddings & Events",              description: "From intimate gatherings to large-scale events, we provide complete floral solutions including centerpieces, installations, and bridal bouquets.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11snm1&_wi=2",              imageAlt: "Wedding event floral arrangement"
+              tag: "Event Florals",              title: "Celebrations",              subtitle: "Weddings & Events",              description: "From intimate gatherings to large-scale events, we provide complete floral solutions including centerpieces, installations, and bridal bouquets.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=11snm1",              imageAlt: "Wedding event floral arrangement"
             },
             {
               id: 3,
-              tag: "Subscriptions",              title: "Blooming Weekly",              subtitle: "Fresh Flowers Delivered",              description: "Receive fresh seasonal arrangements delivered to your door every week, refreshing your space with nature's beauty.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=32583w&_wi=2",              imageAlt: "Weekly flower subscription delivery"
+              tag: "Subscriptions",              title: "Blooming Weekly",              subtitle: "Fresh Flowers Delivered",              description: "Receive fresh seasonal arrangements delivered to your door every week, refreshing your space with nature's beauty.",              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=32583w",              imageAlt: "Weekly flower subscription delivery"
             }
           ]}
           textboxLayout="default"
@@ -159,8 +159,8 @@ export default function LandingPage() {
           ariaLabel="Our services section"
           className="w-full"
           containerClassName="flex flex-col gap-8"
-          titleClassName="text-3xl md:text-4xl font-light text-foreground"
-          descriptionClassName="text-base text-foreground opacity-80 mt-2"
+          textBoxTitleClassName="text-3xl md:text-4xl font-light text-foreground"
+          textBoxDescriptionClassName="text-base text-foreground opacity-80 mt-2"
         />
       </div>
 
@@ -176,18 +176,18 @@ export default function LandingPage() {
           gridVariant="two-columns-alternating-heights"
           animationType="blur-reveal"
           testimonials={[
-            { id: "testimonial-1", name: "Sarah Mitchell", role: "Event Planner", company: "Bloom Events Co.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q0fpy6&_wi=1", imageAlt: "Sarah holding beautiful flower arrangement" },
-            { id: "testimonial-2", name: "Jennifer Lopez", role: "Bride", company: "Wedding 2024", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ewfn9x&_wi=1", imageAlt: "Jennifer with wedding bridal bouquet" },
+            { id: "testimonial-1", name: "Sarah Mitchell", role: "Event Planner", company: "Bloom Events Co.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q0fpy6", imageAlt: "Sarah holding beautiful flower arrangement" },
+            { id: "testimonial-2", name: "Jennifer Lopez", role: "Bride", company: "Wedding 2024", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ewfn9x", imageAlt: "Jennifer with wedding bridal bouquet" },
             { id: "testimonial-3", name: "Marcus Chen", role: "Corporate Client", company: "Tech Innovations Inc.", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ztnbya", imageAlt: "Marcus with office arrangement" },
             { id: "testimonial-4", name: "Emma Thompson", role: "Regular Customer", company: "Bee Life Community", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=e21u3m", imageAlt: "Emma with flowers at celebration" },
-            { id: "testimonial-5", name: "David Rodriguez", role: "Subscription Member", company: "Blooming Weekly", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q0fpy6&_wi=2", imageAlt: "David enjoying weekly flowers" },
-            { id: "testimonial-6", name: "Lisa Anderson", role: "Gift Recipient", company: "Birthday Special", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ewfn9x&_wi=2", imageAlt: "Lisa delighted with flower gift" }
+            { id: "testimonial-5", name: "David Rodriguez", role: "Subscription Member", company: "Blooming Weekly", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=q0fpy6", imageAlt: "David enjoying weekly flowers" },
+            { id: "testimonial-6", name: "Lisa Anderson", role: "Gift Recipient", company: "Birthday Special", rating: 5, imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=ewfn9x", imageAlt: "Lisa delighted with flower gift" }
           ]}
           ariaLabel="Customer testimonials section"
           className="w-full"
           containerClassName="flex flex-col gap-8"
-          titleClassName="text-3xl md:text-4xl font-light text-foreground"
-          descriptionClassName="text-base text-foreground opacity-80 mt-2"
+          textBoxTitleClassName="text-3xl md:text-4xl font-light text-foreground"
+          textBoxDescriptionClassName="text-base text-foreground opacity-80 mt-2"
           gridClassName="grid gap-6"
           cardClassName="rounded-lg overflow-hidden"
         />
@@ -208,8 +208,8 @@ export default function LandingPage() {
           ariaLabel="Social proof partners section"
           className="w-full"
           containerClassName="flex flex-col gap-8"
-          titleClassName="text-3xl md:text-4xl font-light text-foreground text-center"
-          descriptionClassName="text-base text-foreground opacity-80 text-center"
+          textBoxTitleClassName="text-3xl md:text-4xl font-light text-foreground text-center"
+          textBoxDescriptionClassName="text-base text-foreground opacity-80 text-center"
         />
       </div>
 
@@ -225,7 +225,7 @@ export default function LandingPage() {
           ]}
           textarea={{ name: "message", placeholder: "Tell us about your vision and any special requests...", rows: 5, required: true }}
           useInvertedBackground={false}
-          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=b2oems&_wi=2"
+          imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=b2oems"
           imageAlt="Our beautiful floral studio"
           mediaAnimation="blur-reveal"
           mediaPosition="left"
